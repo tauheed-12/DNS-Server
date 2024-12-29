@@ -1,0 +1,53 @@
+/* RecordTable.css */
+
+.table-container {
+    background-color: rgba(218, 216, 216, 0.934);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+.table-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #760505;
+}
+
+.record-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.record-table th,
+.record-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.record-table th {
+    background-color: #4CAF50;
+    color: rgb(67, 7, 7);
+}
+
+.record-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.record-table tr:nth-child(odd) {
+    background-color: rgb(199, 243, 228);
+}
+
+.record-table tr:hover {
+    background-color: #ddd;
+}
+
+.record-table td {
+    color: #333;
+}
